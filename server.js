@@ -13,7 +13,7 @@ const io = socketio(expressServer,{
     cors: {
         origin: [
             "https://localhost",
-            // 'https://local ip add for ppt presentataion here '
+            // 'https://local ip for direct connection NOT RECOMMENDED TO USE IT '
         ],
         methods: ["GET", "POST"]
     }
