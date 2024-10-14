@@ -1,0 +1,81 @@
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.username {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.video-player {
+    width: 40vw;
+    height: 50vh;
+    margin: 3% 2%
+}
+
+.remote {
+    margin-top: 4%;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.call-btn {
+    margin: 0 3%;
+    height: 4rem;
+    width: 6rem;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border: none;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.call-btn:hover {
+    scale: 1.1;
+}
+
+.call {
+    background-color: #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 77, 0, 0.2), 0 6px 20px rgba(0, 77, 0, 0.19);
+
+}
+
+.hangup {
+    background-color: #F44336;
+    box-shadow: 0 4px 8px rgba(200, 0, 0, 0.2), 0 6px 20px rgba(200, 0, 0, 0.19);
+
+}
+
+.answer-btn {
+    margin: 3% 3%;
+    height: 4rem;
+    width: 8rem;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border: none;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 77, 0, 0.2), 0 6px 20px rgba(0, 77, 0, 0.19);
+}
+
+.answer-btn:hover {
+    scale: 1.1
+}
+
+
+
